@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>set two</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Dynamic List Manager -->
+    <p>Dynamic List Manager</p>
+    <input type="text" id="textInput" />
+    <button id="button">Add</button>
+    <ul id="list"></ul>
+
+    <!--  Filter Table Rows -->
+
+    <input type="search" placeholder="Search here.." id="searchbar" />
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Leonardo DiCaprio</td>
+          <td>49</td>
+        </tr>
+        <tr>
+          <td>Chloe Bailey</td>
+          <td>26</td>
+        </tr>
+        <tr>
+          <td>Halle Bailey</td>
+          <td>24</td>
+        </tr>
+        <tr>
+          <td>Chris Hemsworth</td>
+          <td>40</td>
+        </tr>
+        <tr>
+          <td>Zendaya</td>
+          <td>27</td>
+        </tr>
+        <tr>
+          <td>Tom Holland</td>
+          <td>27</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!--  Image Carousel -->
+    <div class="carousel-container">
+      <div class="carousel-images">
+        <img src="../images/resting.avif" alt="Resting" class="active" />
+        <img src="../images/sleeep.webp" alt="Sleeping" />
+        <img src="../images/sleep.avif" alt="Sleep" />
+        <img src="../images/staring.webp" alt="Staring" />
+      </div>
+      <div class="carousel-buttons">
+        <button id="prevButton">Previous</button>
+        <button id="nextButton">Next</button>
+      </div>
+    </div>
+
+    <!-- Theme Switcher -->
+    <button id="theme-toggle">Theme Switcher</button>
+
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>set one</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      
+     
+    </style>
+  </head>
+  <body>
+    <!-- text and customization e dropdown menus -->
+    <div id="first">
+      <div>
+        <p id="pfirst">Customize me : i am a simple text</p>
+      </div>
+      <div>
+        <label for="fontsize">Change Font Size</label>
+        <select name="" id="fontsize">
+          <option value="18px">18px</option>
+          <option value="19px">19px</option>
+          <option value="20px">20px</option>
+          <option value="21px">21px</option>
+        </select>
+
+        <label for="color">Change Color</label>
+        <select name="" id="color">
+          <option value="black">Black</option>
+          <option value="pink">Pink</option>
+          <option value="red">Red</option>
+          <option value="green">Green</option>
+        </select>
+
+        <label for="font-family">Change Font</label>
+        <select name="" id="font-family">
+          <option value="Arial">Arial</option>
+          <option value="Verdana">Verdana</option>
+          <option value="Times New Roman">Times New Roman</option>
+          <option value="Georgia">Georgia</option>
+          <option value="Courier New">Courier New</option>
+        </select>
+      </div>
+    </div>
+    <!-- button -->
+    <div class="withbutton">
+    
+      <button>Click Me</button>
+      <p id="counter">Counter</p>
+    </div>
+    <!-- Show/Hide Password Toggle-->
+    <form action="">
+      <label for="password">Password</label>
+      <input type="password" name="" id="password" />
+      <input type="checkbox" name="" id="checkbox" />
+    </form>
+
+    <!-- text area -->
+    <div id="last">
+      <label for="text-area">Send us a message</label>
+      <textarea name="" id="text-area" maxlength="200"></textarea>
+      <p id="charCount"></p>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

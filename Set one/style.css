@@ -1,0 +1,46 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/*  text and customization e dropdown menus */
+#pfirst {
+    font-size: 18px;
+    font-family: Arial;
+  }
+  #first{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  /* button */
+  .withbutton{
+    display: flex;
+    align-items: center;
+    
+    justify-content: center;
+    margin-top: 50px;
+    flex-direction: column; 
+  }
+  button{
+    padding: 10px;
+    border-radius: 84px;
+    
+  }
+
+  /* Show/Hide Password Toggle */
+  form{
+    text-align: center;
+  }
+  
+  /* text area*/
+  #last{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+  }
